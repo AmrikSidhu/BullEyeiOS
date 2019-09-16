@@ -52,6 +52,17 @@ class BullsEyeTests: XCTestCase {
       XCTAssertEqual(0,game.scoreTotal)
       
     }
+  func testStartNewRound()
+  {
+    // start new game,round,current round number,check point for the round, check you have rand numbers as ,check you have rand numbers as target number.
+    game.startNewRound()
+    let intialRoundNumber = 1
+    let inPoint = 0
+    XCTAssertEqual(intialRoundNumber,game.round)
+    XCTAssertEqual(inPoint, 0)
+    
+    
+  }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
