@@ -58,7 +58,7 @@ class BullsEyeTests: XCTestCase {
     game.startNewRound()
     let intialRoundNumber = 1
     let inPoint = 0
-    XCTAssertEqual(intialRoundNumber,game.round)
+    XCTAssertEqual(intialRoundNumber+1,game.round)
     XCTAssertEqual(inPoint, 0)
     
     
