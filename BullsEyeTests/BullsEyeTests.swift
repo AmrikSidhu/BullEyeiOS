@@ -40,11 +40,15 @@ class BullsEyeTests: XCTestCase {
     }
 
     override func tearDown() {
+      game = nil
+      super.tearDown()
      
       
     }
+  
 
-    func testExample() {
+    func testStartNewGame() {
+      XCTAssertEqual(2, 2)
       
     }
 
