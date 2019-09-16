@@ -60,7 +60,12 @@ class BullsEyeTests: XCTestCase {
     let inPoint = 0
     XCTAssertEqual(intialRoundNumber+1,game.round)
     XCTAssertEqual(inPoint, 0)
+    let initRoundNumber = 1
+    let intiRoundPoints = 0
+    let initTargetNumber = game.targetValue
     
+    XCTAssertEqual(intialRoundNumber+1,game.round)
+    XCTAssertEqual(initTargetNumber,game.targetValue)
     
   }
 
