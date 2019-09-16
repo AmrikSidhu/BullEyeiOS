@@ -48,7 +48,7 @@ class BullsEyeTests: XCTestCase {
   
 
     func testStartNewGame() {
-      XCTAssertEqual(0, game.round)
+      XCTAssertEqual(1, game.round)
       XCTAssertEqual(0,game.scoreTotal)
       
     }
